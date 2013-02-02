@@ -3,6 +3,13 @@ syncSubtitle
 
 synchronize subtitles .str and .sub
 
+Installation
+-------------
+make
+
+make install
+
+
 Usage
 -----
 key -l subPath -s -0.3
