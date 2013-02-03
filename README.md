@@ -14,6 +14,12 @@ make install
 Usage
 -----
 ```bash
+key -l <subtitle-path> -s <second>
+```
+
+Example
+-------
+```bash
 key -l subPath -s -0.3
 
 key -l subPath -s 1
