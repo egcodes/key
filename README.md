@@ -20,9 +20,7 @@ key -l <subtitle-path> -s <second>
 Example
 -------
 ```bash
-key -l subPath -s -0.3
+key -l subPath.srt -s -0.3
 
-key -l subPath -s 1
-
-key -l subPath -s 4.5
+key -l subPath.sub -s 2
 ```
