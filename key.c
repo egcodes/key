@@ -164,8 +164,8 @@ void usage(void)
     printf("\nKey v%s (Usage)\n"
            "Sync  : key -l <subtitle-path> -s <second>\n"
            "( 5)   -> add 5 second\n"
-           "(-5)   -> mines 5 second\n\n"
-           "Help  : bumerang -h\n\n", VERSION);
+           "(-5)   -> reduce 5 second\n\n"
+           "Help  : key -h\n\n", VERSION);
 
     exit(EXIT_FAILURE);
 }
