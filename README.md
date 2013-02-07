@@ -5,15 +5,22 @@ synchronize subtitles .str and .sub
 
 Installation
 -------------
+```bash
 make
 
 make install
-
+```
 
 Usage
 -----
-key -l subPath -s -0.3
+```bash
+key -l <subtitle-path> -s <second>
+```
 
-key -l subPath -s +1
+Example
+-------
+```bash
+key -l subPath.srt -s -0.3
 
-key -l subPath -s +4.5
+key -l subPath.sub -s 2
+```
